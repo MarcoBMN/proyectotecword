@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+}
+
+body {
+  margin:0px;
+  padding: 0px;
+  background-color: rgb(58, 58, 58);
+}
+
+header {
+  background-image: linear-gradient(to right, #000000, #303030);
+text-align: center;
+text-decoration: bold;
+color:#33fd00;
+width: 100%;
+height: 80px;
+padding-top: 30px;
+padding-bottom: 5px;
+
+
+border-bottom-style: solid;
+border-bottom-width: 8px;
+border-bottom-color: #050505;
+
+border-radius: 40px 40px  40px 40px;
+border-top-style:solid; 
+margin-top: 3px;
+
+border-top-width: 5px;
+border-top-color: #09ff00;
+
+} 
+h1 {
+    font-size: 30pt;
+    font-family: Tahoma, Georgia, "Times New Roman", Times, Serif;
+    text-align: center;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: #000000;
+}
+
+
+#menu {
+width: 900px;
+margin: 0 auto;
+margin-top: 0px;
+font-family: arial;
+font-size: 10px;
+}
+
+#menu ul  {
+display: flex;  
+list-style: none;
+margin: 0;
+}
+#menu a{
+  color:#06af00;
+  transition: all 500ms ease;
+}
+
+#menu ul li {
+margin: 0;
+}
+
+#menu ul li a {
+background:black;
+margin:0 2px;
+width: 138px;
+font-weight:bold;
+font-size:1.5em;
+text-align: center;
+line-height: 40px;
+display:block;
+text-decoration: none;
+}
+
+#menu ul li a:hover {
+color:#444444;
+}
+
+#menu .submenu{
+  background: rgba(0, 0, 0, 0.582);
+  display: none;
+}
+
+#menu .submenu li a{
+  line-height: 50px;
+}
+
+#menu ul li a:hover + ul, #menu
+.submenu:hover{
+  display: block;
+}
+
+#principal {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  background-image: linear-gradient(to right, #00ff00, #a3f89c);
+  float: left;
+}
+
+table {
+    width: 100%;
+    font: normal 13px Arial;
+    text-align: center;
+    background-color: #070707 ;
+    color:fff;
+}
+table th {
+    font: bold 15px Arial;
+    background-color: rgb(75, 255, 4);
+}
+
+.filapar {
+    background-color: #5a5a5a;
+}                
+
+.filaimpar{
+    background-color:#646464;
+}
+
+h1 {
+    font: bold 40px Forte;
+    text-align: center;
+    color:rgb(15, 255, 35);
+}
+
+h2 {
+    font: 25px Forte;
+    text-align: center;
+}
+
+h3 {
+    font: 20px Magneto;
+    text-align: center;
+}
+table tr {
+     background-color: #2afd00;
+     width: auto;
+ }
+
+.descripcion {
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+table td {
+    width: 1500px;
+}
